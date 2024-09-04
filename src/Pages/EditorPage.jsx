@@ -125,17 +125,15 @@ function EditorPage() {
   
 const options = {
   method: 'POST',
-  url: 'https://online-code-compiler.p.rapidapi.com/v1/',
+  url: 'https://code-runner.p.rapidapi.com/run_code',
   headers: {
-    'content-type': 'application/json',
-    'X-RapidAPI-Key': API_KEY,
-    'X-RapidAPI-Host': 'online-code-compiler.p.rapidapi.com'
+    'x-rapidapi-key': "b47c34aab5mshb32a51b8973e039p18f5c7jsn9b05d27ea10f",
+    'x-rapidapi-host': 'code-runner.p.rapidapi.com',
+    'Content-Type': 'application/json'
   },
   data: {
-    language: lang,
-    version: 'latest',
     code: input,
-    input: null
+    language: lang
   }
 };
 
