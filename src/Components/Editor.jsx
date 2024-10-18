@@ -91,7 +91,7 @@ function Editor({ socketRef, roomId, onCodeChange, onLangChange }) {
         <option value='dart'>Dart</option>
         <option value='rust'>Rust</option>
         <option value='sql'>SQL</option>
-        <option value='nodejs'>NodeJS</option>
+        <option value='nodejs'>JavaScript</option>
         <option value='lolcode'>LOLCODE</option>
     </select>   
 </div>
